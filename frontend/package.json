@@ -19,7 +19,7 @@
     "axios": "^1.8.2",
     "expo": "~52.0.38",
     "expo-camera": "~16.0.18",
-    "expo-dev-client": "~5.0.14",
+    "expo-dev-client": "~5.2.4",
     "expo-image-manipulator": "^13.0.6",
     "expo-image-picker": "~16.0.6",
     "expo-modules-core": "^2.2.3",
