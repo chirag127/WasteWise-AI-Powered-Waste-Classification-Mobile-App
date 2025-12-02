@@ -1,0 +1,24 @@
+build_status:
+  provider: github_actions
+  workflow_name: CI
+  branch: main
+  image_url: https://github.com/chirag127/WasteWise-AI-Powered-Waste-Classification-Mobile-App/actions/workflows/ci.yml/badge.svg
+  url: https://github.com/chirag127/WasteWise-AI-Powered-Waste-Classification-Mobile-App/actions/workflows/ci.yml
+code_coverage:
+  provider: codecov
+  repository: chirag127/WasteWise-AI-Powered-Waste-Classification-Mobile-App
+  branch: main
+  image_url: https://codecov.io/github/chirag127/WasteWise-AI-Powered-Waste-Classification-Mobile-App/branch/main/graph/badge.svg
+  url: https://codecov.io/github/chirag127/WasteWise-AI-Powered-Waste-Classification-Mobile-App
+tech_stack:
+  name: React Native, Expo, TensorFlow.js
+  image_url: https://img.shields.io/badge/Tech-Stack-blue?style=flat-square
+license:
+  text: CC BY-NC 4.0
+  image_url: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey?style=flat-square
+  url: https://creativecommons.org/licenses/by-nc/4.0/
+stars:
+  owner: chirag127
+  repo: WasteWise-AI-Powered-Waste-Classification-Mobile-App
+  image_url: https://img.shields.io/github/stars/chirag127/WasteWise-AI-Powered-Waste-Classification-Mobile-App?style=flat-square
+  url: https://github.com/chirag127/WasteWise-AI-Powered-Waste-Classification-Mobile-App/stargazers
