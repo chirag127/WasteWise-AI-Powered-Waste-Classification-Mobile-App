@@ -1,24 +1,71 @@
-build_status:
-  provider: github_actions
-  workflow_name: CI
-  branch: main
-  image_url: https://github.com/chirag127/WasteWise-AI-Powered-Waste-Classification-Mobile-App/actions/workflows/ci.yml/badge.svg
-  url: https://github.com/chirag127/WasteWise-AI-Powered-Waste-Classification-Mobile-App/actions/workflows/ci.yml
-code_coverage:
-  provider: codecov
-  repository: chirag127/WasteWise-AI-Powered-Waste-Classification-Mobile-App
-  branch: main
-  image_url: https://codecov.io/github/chirag127/WasteWise-AI-Powered-Waste-Classification-Mobile-App/branch/main/graph/badge.svg
-  url: https://codecov.io/github/chirag127/WasteWise-AI-Powered-Waste-Classification-Mobile-App
-tech_stack:
-  name: React Native, Expo, TensorFlow.js
-  image_url: https://img.shields.io/badge/Tech-Stack-blue?style=flat-square
-license:
-  text: CC BY-NC 4.0
-  image_url: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey?style=flat-square
-  url: https://creativecommons.org/licenses/by-nc/4.0/
-stars:
-  owner: chirag127
-  repo: WasteWise-AI-Powered-Waste-Classification-Mobile-App
-  image_url: https://img.shields.io/github/stars/chirag127/WasteWise-AI-Powered-Waste-Classification-Mobile-App?style=flat-square
-  url: https://github.com/chirag127/WasteWise-AI-Powered-Waste-Classification-Mobile-App/stargazers
+# Badges Configuration
+
+# Base URL for all badges
+base_url: "https://github.com/chirag127/EcoSnap-AI-Waste-Classification-Mobile-App"
+
+# Badge definitions
+badges:
+  - name: "Build Status"
+    icon: "github actions"
+    link: "${base_url}/actions/workflows/ci.yml"
+    style: "flat-square"
+    query: "branch:main"
+    labelColor: "#555"
+    color: "#0077cc"
+
+  - name: "Code Coverage"
+    icon: "codecov"
+    link: "https://codecov.io/gh/chirag127/EcoSnap-AI-Waste-Classification-Mobile-App"
+    style: "flat-square"
+    labelColor: "#555"
+    color: "#0077cc"
+
+  - name: "License"
+    icon: "lgpl"
+    link: "${base_url}/blob/main/LICENSE"
+    value: "CC BY-NC 4.0"
+    style: "flat-square"
+    labelColor: "#555"
+    color: "#0077cc"
+
+  - name: "Tech Stack - React Native"
+    icon: "react"
+    value: "React Native"
+    style: "flat-square"
+    labelColor: "#555"
+    color: "#61DAFB"
+
+  - name: "Tech Stack - TypeScript"
+    icon: "typescript"
+    value: "TypeScript"
+    style: "flat-square"
+    labelColor: "#555"
+    color: "#3178C6"
+
+  - name: "Tech Stack - Expo"
+    icon: "expo"
+    value: "Expo"
+    style: "flat-square"
+    labelColor: "#555"
+    color: "#000000"
+
+  - name: "GitHub Stars"
+    icon: "github"
+    link: "${base_url}"
+    style: "flat-square"
+    labelColor: "#555"
+    color: "#0077cc"
+
+  - name: "Linter - ESLint"
+    icon: "eslint"
+    value: "ESLint"
+    style: "flat-square"
+    labelColor: "#555"
+    color: "#4B3263"
+
+  - name: "Formatter - Prettier"
+    icon: "prettier"
+    value: "Prettier"
+    style: "flat-square"
+    labelColor: "#555"
+    color: "#F7B93E"
